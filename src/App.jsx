@@ -3,8 +3,10 @@ import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import './App.css'
 
+import Navbar from "./components/Navbar";
 import Header from "./components/Header";
 import Container from "./components/Container";
+
 
 function App() {
   const [count, setCount] = useState(0)
@@ -13,6 +15,7 @@ function App() {
     <div className='w-full overflow-hidden'>
       <div className='px-8'>
         <div>
+          <Navbar/>
           <Header/>
         </div>
       </div>
