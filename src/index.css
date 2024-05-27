@@ -5,3 +5,14 @@
 .bg-primary{
   background-color: rgb(6, 7, 13);
 }
+
+
+.btn{
+  border: 1px solid wheat;
+  padding: 8px 20px;
+  border-radius: 6px;
+  transition: 0.3s all ease;
+}
+.btn:hover{
+  background-color: wheat;
+}

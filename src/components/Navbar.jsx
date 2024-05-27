@@ -4,12 +4,12 @@ import { NavLinks } from "../index";
 const Navbar = () => {
   return (
     <div className='flex justify-between w-full'>
-      <div className=' flex'> <img src="" alt="" /></div>
-      <div>
-        <ul className='flex gap-8 text-white'>
+      <div className=' flex'> <img src="" alt="Logo" /></div>
+      <div >
+        <ul className='flex gap-10 text-white my-8 mx-5'>
             {
-              NavLinks.map( (links, index)=>(
-                <li key={links.id}>{links.title}</li>
+              NavLinks.map( (links)=>(
+                <li key={links.id} className='btn'>{links.title}</li>
               ))
             }
         </ul>
