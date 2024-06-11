@@ -6,13 +6,7 @@ const Navbar = () => {
     <div className='flex justify-between w-full'>
       <div className=' flex'></div>
       <div >
-        <ul className='flex gap-10 text-white my-8 mx-5'>
-            {
-              NavLinks.map( (links)=>(
-                <li key={links.id} className='btn'>{links.title}</li>
-              ))
-            }
-        </ul>
+       
       </div>
     </div>
   )

@@ -4,7 +4,7 @@ import { SocialLinks } from '../index';
 
 const Sidebar = () => {
   return (
-    <div className="max-w-[325px] h-[90%] sidebar justify-between items-center flex flex-col bg-component py-8">
+    <div className="max-w-[325px] h-[94%] sidebar justify-between items-center flex flex-col bg-component py-8 backdrop-blur-sm">
       <div className=" flex gap-10 mt-10 items-center">
         <img src={Logo} alt="Logo" className="h-20 text-white" />
         <h2 className=" text-white text-4xl font-bold montserrat max-w-[155px] h-[120px]">ABDUL WAHAB TAHIR</h2>
