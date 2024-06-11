@@ -8,7 +8,7 @@
   background-color: #1e1e1e;
 }
 .bg-component {
-  background-color: #3130304a;
+  background-color: #3130305b;
 }
 .bg-btn {
   background: rgb(188, 117, 117);
@@ -27,15 +27,33 @@
   );
 }
 
+
+.montserrat {
+  font-family: "Montserrat", sans-serif;
+}
+
+.text-color{
+  color: #E0E0E0;
+}
 .position {
   bottom: -10px;
   left: -10px;
 }
 
 .sidebar {
-  border: 1px solid white;
+  border: 1px solid #595757c0;
+  
   border-radius: 15px;
 }
-.montserrat {
-  font-family: "Montserrat", sans-serif;
+.header{
+  border-bottom: 0;
+  border-radius: 15px;
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 0;
+}
+.btn{
+  padding: 8px 18px;
+  border: 0.5px solid #E0E0E0;
+  border-radius: 8px;
+  font-weight: 200;
 }

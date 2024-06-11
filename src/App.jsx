@@ -1,17 +1,17 @@
 
 
-import { Navbar, Sidebar } from './components/index';
+import { Header, Navbar, Sidebar } from './components/index';
 
 
 function App() {
 
   return (
     <div className='w-full bg-primary overflow-hidden'>
-      <div className='px-8 h-screen pt-14 '>
+      <div className='px-8 h-screen pt-14 flex gap-9'>
         <div className="bg-radial-gradient w-[250px] h-[250px] fixed z-[0] position blur-[100px] opacity-75"/>
         
           <Sidebar/>
-          <Navbar/>
+          <Header/>
 
       </div>
     </div>

@@ -1,9 +1,10 @@
 import React from 'react'
+import Navbar from './Navbar'
 
 const Header = () => {
   return (
-    <div>
-      
+    <div className=" text-color sidebar header w-full">
+      <Navbar/>
     </div>
   )
 }

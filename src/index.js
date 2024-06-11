@@ -3,20 +3,24 @@ import { LinkedIn, Instagram, X, Link } from "./assets/index";
 export const NavLinks = [
 
     {
-        id: "project",
-        title: "Projects",
+        id: "",
+        title: "HOME",
     },
     {
         id: "github",
-        title: "Github",
+        title: "GITHUB",
     },
     {
-        id: "about-me",
-        title: "About me",
+        id: "about",
+        title: "ABOUT",
     },
     {
-        id: "contact-me",
-        title: "Contact me",
+        id: "resume",
+        title: "RESUME",
+    },
+    {
+        id: "contact",
+        title: "CONTACT",
     },
 ];
 
