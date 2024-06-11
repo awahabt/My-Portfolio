@@ -1,18 +1,38 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
-.bg-primary{
-  background-color: rgb(6, 7, 13);
+.bg-primary {
+  background-color: #1e1e1e;
+}
+.bg-component {
+  background-color: #313030;
+}
+.bg-btn {
+  background: rgb(188, 117, 117);
+  background: linear-gradient(
+    90deg,
+    rgba(188, 117, 117, 1) 10%,
+    rgba(243, 199, 199, 1) 90%
+  );
 }
 
-
-.btn{
+.btn {
   border: 1px solid wheat;
   padding: 8px 20px;
   border-radius: 6px;
   transition: 0.3s all ease;
 }
-.btn:hover{
+.btn:hover {
   background-color: rgba(231, 231, 231, 0.518);
+}
+
+.sidebar {
+  border: 1px solid white;
+  border-radius: 15px;
+}
+.montserrat {
+  font-family: "Montserrat", sans-serif;
 }
