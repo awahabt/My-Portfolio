@@ -3,7 +3,7 @@ import Navbar from './Navbar'
 
 const Header = () => {
   return (
-    <div className=" text-color sidebar header w-full">
+    <div className=" text-color sidebar header z-[1] w-full">
       <Navbar/>
     </div>
   )

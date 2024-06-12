@@ -1,11 +1,12 @@
 import React from 'react';
 import { Logo } from '../assets';
 import { SocialLinks } from '../index';
+import Button from './Button';
 
 const Sidebar = () => {
   return (
-    <div className="w-[425px] h-[94%] sidebar relative justify-between items-center flex flex-col bg-component py-8 backdrop-blur-sm">
-      <div className=" flex gap-10 mt-10 items-center">
+    <div className="w-[425px] h-[94%] sidebar relative justify-between items-center flex flex-col bg-component z-[1] py-8 backdrop-blur-sm">
+      <div className=" flex gap-10 mt-10 items-center max-w-[230px]">
         <img src={Logo} alt="Logo" className="h-20 text-color" />
         <h2 className=" text-color text-4xl font-bold montserrat max-w-[155px] h-[120px]">ABDUL WAHAB TAHIR</h2>
       </div>
@@ -18,9 +19,9 @@ const Sidebar = () => {
             <a href={img.link}><img src={img.icon} key={img.id} className="h-[30px] text-color w-[30px]"/></a>
           ))}
         </div>
-        <div>
-          <button className="bg-btn text-black montserrat font-bold rounded-full py-[14px] px-10">Let’s Work Together!</button>
-        </div>
+        
+          <Button/>
+        
       </div>
     </div>
   )

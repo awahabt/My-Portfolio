@@ -1,4 +1,4 @@
-import chat from "../assets/chat.svg";
+import chat from "./chat.svg";
 import download from "./download.svg";
 import Instagram from "./Instagram.svg";
 import Lightmode from "./Lightmode.svg";

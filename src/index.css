@@ -40,6 +40,10 @@
   left: -10px;
 }
 
+.position-2 {
+  top: -100px;
+  right: -100px;
+}
 .sidebar {
   border: 1px solid #595757c0;
   
