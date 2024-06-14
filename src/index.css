@@ -71,6 +71,10 @@
   border: 0.5px solid #e0e0e0;
   border-radius: 8px;
   font-weight: 200;
+  transition: 0.3s all ease;
+}
+.btn:hover{
+  background-color: #e0e0e012;
 }
 
 .work-btn {
@@ -90,4 +94,13 @@
 .download-btn:hover {
   color: #e0e0e0b0;
   transform: scale(1.01);
+}
+.lightmode{
+  padding: 0 12px;
+  transition: 0.2s all ease;
+  cursor: pointer;
+}
+.lightmode:hover{
+  background-color: #e0e0e012;
+  border-radius: 8px;
 }

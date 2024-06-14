@@ -3,6 +3,7 @@ import { NavLinks } from "../index";
 import { Lightmode } from '../assets';
 import Button from './Button';
 
+
 const Navbar = () => {
   return (
     <div className='flex justify-between w-full  items-center'>
@@ -16,7 +17,7 @@ const Navbar = () => {
         </ul>
       </div>
       <div className="flex float-right  gap-8 mr-10">
-        <img src={Lightmode} alt="LightMode" />
+        <img src={Lightmode} alt="LightMode" className="lightmode" />
         <Button/>
       </div>
     </div>
