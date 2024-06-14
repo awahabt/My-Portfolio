@@ -5,8 +5,8 @@ import Button from './Button';
 
 const Sidebar = () => {
   return (
-    <div className="w-[425px] h-[94%] sidebar relative justify-between items-center flex flex-col bg-component z-[1] py-8 backdrop-blur-sm">
-      <div className=" flex gap-10 mt-10 items-center max-w-[230px]">
+    <div className="w-[330px] h-[90vh] sidebar fixed justify-between items-center flex flex-col bg-component z-[2] py-8 backdrop-blur-sm">
+      <div className=" flex gap-10 mt-10 items-center justify-between max-w-[245px] ">
         <img src={Logo} alt="Logo" className="h-20 text-color" />
         <h2 className=" text-color text-4xl font-bold montserrat max-w-[155px] h-[120px]">ABDUL WAHAB TAHIR</h2>
       </div>

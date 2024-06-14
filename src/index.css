@@ -26,14 +26,25 @@
     rgba(243, 199, 199, 1) 90%
   );
 }
-
+.text-gradient {
+  background: rgb(188, 117, 117);
+  background: linear-gradient(
+    90deg,
+    rgba(243, 199, 199, 1) 10%,
+    rgba(188, 117, 117, 1) 90%
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  line-height: 100px;
+}
 
 .montserrat {
   font-family: "Montserrat", sans-serif;
 }
 
-.text-color{
-  color: #E0E0E0;
+.text-color {
+  color: #e0e0e0;
 }
 .position {
   bottom: -10px;
@@ -46,18 +57,37 @@
 }
 .sidebar {
   border: 1px solid #595757c0;
-  
+
   border-radius: 15px;
 }
-.header{
+.Container {
   border-bottom: 0;
   border-radius: 15px;
   border-bottom-left-radius: 0;
   border-bottom-right-radius: 0;
 }
-.btn{
+.btn {
   padding: 8px 18px;
-  border: 0.5px solid #E0E0E0;
+  border: 0.5px solid #e0e0e0;
   border-radius: 8px;
   font-weight: 200;
+}
+
+.work-btn {
+  padding: 8px 24px;
+  border: 0.5px solid rgba(243, 199, 199, 1);
+  border-radius: 25px;
+  transition: 0.2s all ease;
+}
+.work-btn:hover {
+  background-color: #e0e0e012;
+}
+
+.download-btn {
+  color: #e0e0e08f;
+  transition: 0.3s all ease;
+}
+.download-btn:hover {
+  color: #e0e0e0b0;
+  transform: scale(1.01);
 }
