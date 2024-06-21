@@ -17,6 +17,7 @@
     rgba(188, 117, 117, 1) 10%,
     rgba(243, 199, 199, 1) 90%
   );
+  cursor: pointer;
 }
 .bg-radial-gradient {
   background: rgb(188, 117, 117);
