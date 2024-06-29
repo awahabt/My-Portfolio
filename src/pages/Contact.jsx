@@ -5,6 +5,7 @@ const Contact = () => {
     <div className=' w-full h-screen'>
       
     </div>
+    
   )
 }
 

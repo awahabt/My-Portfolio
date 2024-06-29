@@ -27,22 +27,22 @@ export const  NavLinks = [
 export const SocialLinks = [
     {
         id: "linkedin",
-        icon: {LinkedIn},
-        link: "#",
+        icon: LinkedIn,
+        link: "www.linkedin.com/in/awahabt",
     },
     {
         id: "instagram",
-        icon: {Instagram},
+        icon: Instagram,
         link: "#",
     },
     {
         id: "x",
-        icon: {X},
+        icon: X,
         link: "#",
     },
     {
         id: "link",
-        icon: {Link},
+        icon: Link,
         link: "#",
     },
 ];
