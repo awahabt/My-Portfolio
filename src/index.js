@@ -1,5 +1,6 @@
 import { LinkedIn, Instagram, X, Link } from "./assets/index";
 
+
 export const  NavLinks = [
 
     {
