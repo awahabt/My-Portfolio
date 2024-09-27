@@ -8,7 +8,7 @@ import { HiMenuAlt1 } from "react-icons/hi";
 
 
 const Navbar = () => {
-  let [active, setActive] = useState("");
+  let [active, setActive] = useState("home");
   return (
     <div className="flex justify-between w-full  items-center">
       <div className="pl-8 flex max-[1150px]:hidden">
@@ -29,7 +29,7 @@ const Navbar = () => {
         </ul>
       </div>
 
-      <HiMenuAlt1 />
+      <HiMenuAlt1 className=" min-[1150px]:hidden" />
 
       <div className="flex   gap-8 mr-10">
         <img src={Lightmode} alt="LightMode" className="lightmode" />

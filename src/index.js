@@ -29,7 +29,7 @@ export const SocialLinks = [
     {
         id: "linkedin",
         icon: LinkedIn,
-        link: "www.linkedin.com/in/awahabt",
+        link: "https://linkedin.com/in/awahabt",
     },
     {
         id: "instagram",

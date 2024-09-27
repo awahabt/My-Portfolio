@@ -16,7 +16,7 @@ const Sidebar = () => {
       <div className="flex flex-col items-center justify-between h-[120px] ">
         <div className="flex gap-6 px-5">
           {SocialLinks.map((img, index)=>(
-            <a href={img.link}><img src={img.icon} key={img.id} className="h-[30px] text-color w-[30px]"/></a>
+            <a href={img.link} ><img src={img.icon} key={img.id} className="h-[30px] text-color cursor-pointer w-[30px]"/></a>
           ))}
         </div>
         

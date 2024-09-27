@@ -4,6 +4,10 @@
 @tailwind components;
 @tailwind utilities;
 
+
+.border{
+  border: 1px solid white;
+}
 .bg-primary {
   background-color: #1e1e1e;
 }
@@ -77,6 +81,9 @@
 }
 .btn:hover{
   background-color: #e0e0e012;
+}
+.dimWhite{
+  background-color: yellow;
 }
 .activebtn{
   padding: 6px 20px;
