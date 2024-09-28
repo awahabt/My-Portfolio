@@ -2,7 +2,7 @@ import Home from "./Home";
 import Contact from "./Contact"
 import About from "./About";
 import Github from "./Github";
-import Resume from "./Resume"
+import Blog from "./Blog"
 
 
 export {
@@ -10,5 +10,5 @@ export {
     Contact,
     About,
     Github,
-    Resume,
+    Blog,
 };

@@ -5,43 +5,47 @@
 @tailwind utilities;
 
 
+body{
+  background-color: #040303;
+  color: #cfdef3;
+}
+
 .border{
   border: 1px solid white;
 }
 .bg-primary {
-  background-color: #1e1e1e;
+  background-color: #040303;
 }
 .bg-component {
   background-color: #3130305b;
 }
 .bg-btn {
-  background: rgb(188, 117, 117);
+  background: rgb(224, 234, 243);
   background: linear-gradient(
     90deg,
-    rgba(188, 117, 117, 1) 10%,
-    rgba(243, 199, 199, 1) 90%
+    rgba(224, 234, 243, 1) 10%,
+    rgba(207, 222, 243, 1) 90%
   );
   cursor: pointer;
 }
 .bg-radial-gradient {
-  background: rgb(188, 117, 117);
+  background: rgb(207, 222, 243);
   background: radial-gradient(
     circle,
-    rgba(188, 117, 117, 1) 0%,
-    rgba(243, 199, 199, 1) 90%
+    rgba(207, 222, 243, 1) 0%,
+    rgba(224, 234, 243, 1) 90%
   );
 }
 .text-gradient {
-  background: rgb(188, 117, 117);
+  background: rgb(207, 222, 243);
   background: linear-gradient(
     90deg,
-    rgba(243, 199, 199, 1) 10%,
-    rgba(188, 117, 117, 1) 90%
+    rgba(224, 234, 243, 1) 10%,
+    rgba(207, 222, 243, 1) 90%
   );
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
-  line-height: 100px;
 }
 
 .montserrat {
@@ -49,7 +53,7 @@
 }
 
 .text-color {
-  color: #e0e0e0;
+  color: rgb(207, 222, 243);
 }
 .position {
   bottom: -10px;
@@ -74,9 +78,9 @@
 .btn {
   padding: 6px 20px;
   border: 0.5px solid #e0e0e0;
-  border-radius: 8px;
+  border-radius: 5px;
   font-weight: 300;
-  font-size: 13px;
+  font-size: 14px;
   transition: 0.3s all ease;
 }
 .btn:hover{
@@ -97,9 +101,10 @@
 
 .work-btn {
   padding: 8px 24px;
-  border: 0.5px solid rgba(243, 199, 199, 1);
+  border: 0.5px solid rgba(207, 222, 243, 1);
   border-radius: 25px;
   transition: 0.2s all ease;
+  color: rgb(207, 222, 243);
 }
 .work-btn:hover {
   background-color: #e0e0e012;
