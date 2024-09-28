@@ -79,12 +79,13 @@ body{
   padding: 6px 20px;
   border: 0.5px solid #e0e0e0;
   border-radius: 5px;
-  font-weight: 300;
+  font-weight: 400;
   font-size: 14px;
   transition: 0.3s all ease;
 }
 .btn:hover{
-  background-color: #e0e0e012;
+  background-color: #cfdef3;
+  color: #040303;
 }
 .dimWhite{
   background-color: yellow;
@@ -92,11 +93,11 @@ body{
 .activebtn{
   padding: 6px 20px;
   border: 0.5px solid #e0e0e0;
-  background-color: #e0e0e0;
+  background-color: #cfdef3;
   color: black;
-  border-radius: 8px;
-  font-weight: 700;
-  font-size: 13px;
+  border-radius: 5px;
+  font-weight: 400;
+  font-size: 14px;
 }
 
 .work-btn {
