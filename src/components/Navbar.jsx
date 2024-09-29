@@ -11,7 +11,7 @@ import { NavLink } from "react-router-dom";
 const Navbar = () => {
   let [active, setActive] = useState("home");
   return (
-    <div className="flex justify-between w-full items-center">
+    <div className="flex justify-between w-full items-center border">
       <div className="pl-8 flex max-[1150px]:hidden">
         <ul className="flex gap-10 text-white  ">
           {NavLinks.map((links) => (

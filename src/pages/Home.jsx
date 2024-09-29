@@ -3,9 +3,9 @@ import { Work, download } from "../assets";
 
 const Home = () => {
   return (
-    <div className="max-w-[1300px] h-[85vh] mx-8 flex flex-col justify-end gap-10">
-        <p className="flex justify-center flex-col text-[110px] font-semibold text-gradient leading-[150px]">Abdul Wahab Tahir.<br/><span className="text-2xl font-[400]">Front-End Engineer</span></p>
-        <div className="flex flex-wrap gap-10 mt-8">
+    <div className="border max-w-[1300px] ml-8 flex flex-col justify-end gap-10 pt-[400px] ">
+        <p className="flex justify-center flex-col text-[110px] font-semibold text-gradient leading-[150px] max-[850px]:text-[80px] max-[850px]:leading-[110px] max-[425px]:text-[60px] max-[425px]:leading-[90px] max-[425px]:text-center max-[340px]:text-[50px]">Abdul Wahab Tahir.<br/><span className="text-2xl font-[400]">Front-End Engineer</span></p>
+        <div className="w-full flex flex-wrap gap-10 mt-8 max-[425px]:justify-center">
           <button className="flex gap-3 items-center work-btn ">My Work <img src={Work} alt="Work" /></button>
           <button className="flex gap-3 items-center download-btn">Download CV <img src={download} alt="" /></button>
         </div>

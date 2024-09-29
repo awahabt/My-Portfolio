@@ -8,14 +8,18 @@ import {Home, About, Github, Contact, Blog} from './pages/index.js'
 
 const router = createBrowserRouter(
   createRoutesFromElements(
-    <Route path='/' element={<App/>}>
-      <Route path="" element={<Home/>}/>
-      <Route path="about" element={<About/>}/>
-      <Route path="github" element={<Github/>}/>
-      <Route path="blog" element={<Blog/>}/>
-      <Route path="contact" element={<Contact/>}/>
-    </Route>
+    <><Route path='/' element={<App/>}>
+    <Route path="" element={<Home/>}/>
+    <Route path="about" element={<About/>}/>
+    <Route path="github" element={<Github/>}/>
+    <Route path="blog" element={<Blog/>}/>
+    <Route path="contact" element={<Contact/>}/>
+  </Route>
+  <Route path='/' element={<Contact/>}/>
+  </>
+    
   )
+  
 )
 
 

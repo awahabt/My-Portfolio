@@ -20,10 +20,6 @@ export const  NavLinks = [
         id: "blog",
         title: "My Blogs",
     },
-    {
-        id: "contact",
-        title: "Get in Touch",
-    },
 ];
 
 export const SocialLinks = [
