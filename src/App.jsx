@@ -16,7 +16,7 @@ function App() {
           </div>
         </div> 
       </div>
-     <div><p className="text-end pr-10 text-white montserrat">Made with ❤️</p></div>
+     <div><p className="text-end pr-10 montserrat">Made with ❤️</p></div>
     </div>
   );
 }
